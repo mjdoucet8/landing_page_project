@@ -1,0 +1,232 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.button {
+    background-color: #3882F6;
+    border: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+ul {
+    display: flex;
+    column-gap: 24px;
+    margin: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 10px 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .logo {
+        font-size: 24px;
+        color: #F9DAD8;
+    }
+
+    .header-links {
+        display: flex;
+        flex-direction: row; 
+    }
+
+        .link {
+            font-size: 18px;
+            color: #E5E7EB;
+            list-style-type: none;
+            
+        }
+
+.part-one {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+    padding: 80px 100px;
+}    
+
+    .part-one-left {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        align-items: start;
+        justify-content: start;
+        width: 600px;
+        margin-left: 144px;
+    }
+
+        .part-one-left-title {
+            font-size: 48px;
+            color:#F9DAD8;
+            display: flex;
+        }  
+
+        .part-one-left-body {
+            font-size: 18px;
+            color:#E5E7EB;
+            display: flex;
+            flex-grow: 0;
+        }
+
+        .part-one-left-signup {
+            display: flex;
+            flex-grow: 0;
+        }
+
+
+    .part-one-right {
+        background-color: grey;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 100px;
+        margin-right: 144px;
+    }
+
+.part-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+    .part-two-title {
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1F2937;
+        padding: 32px;
+    }
+   
+    .part-two-images {
+        display: flex;
+        flex-shrink: 0;
+        justify-content: space-between;
+        width: 50%;
+        margin-bottom: 8px;
+    }
+
+        img {
+            width: 144px;
+            height: 144px;
+        }
+
+    .part-two-text {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        padding: 0;
+        margin-bottom: 64px;
+    }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+            li {
+                text-align: center;
+            }
+
+            .text {
+                display: flex;
+                width: 144px;
+                font-size: 12px;
+            }
+
+.part-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+    .part-three-body {
+        font-size: 36px;
+        font-weight: italic;
+        color: #1F2937;
+        display: block;
+        width: 50%;
+    }
+
+        .part-three-text {
+            
+        }
+
+    .part-three-quote {
+        font-size: 24px;
+        font-weight: bold;
+        color: #1F2937;
+        display: flex;
+        width: 720px;
+        justify-content: end;
+    }
+
+.part-four {
+    margin: 64px 100px 64px 100px;
+    background-color: #3882F6;
+    border-radius: 25px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+    .part-four-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        row-gap: 5px;
+    }
+
+        .part-four-left-top {
+            color: #F9DAD8;
+            font-weight: bold;
+            padding-top: 32px;
+        }
+
+        .part-four-left-bottom {
+            font-size: 8px;
+            color: #F9DAD8;
+            padding-bottom: 32px;
+        }
+
+
+    .part-four-right {
+    }
+
+        .button.two {
+            border-style: solid;
+            border-color: #E5E7EB; 
+        }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9DAD8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+}
+
